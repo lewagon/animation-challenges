@@ -5,10 +5,10 @@ $(function(){
     $(".tab").removeClass("active");
     $(this).addClass("active");
 
-    // Hide all tab content
+    // Hide all tab-content
     $(".tab-content").addClass("hidden");
 
-    // Show target tab
+    // Show target tab-content
     tabSelector = $(this).data("target");
     $(tabSelector).removeClass("hidden");
   });
